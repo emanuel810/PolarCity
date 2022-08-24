@@ -1,0 +1,41 @@
+:root{
+      --dark: #16191c;
+      --dark-x: #1e2126;
+      --light: #ffffff;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+      font-weight: 300; 
+      color: var(--light);
+}
+.bg-dark{background-color: var(--dark)  !important;}
+.bg-dark-x{background-color:var(--dark-x);}
+
+.img-1{
+    background-image: url("compu1.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.img-2{
+    background-image: url("compu2.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.img-3{
+    background-image: url("compu3.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+
+img{  
+	padding: 0px 20px 0;
+
+}
+
+#boton{
+    background-color: #088178 ;
+    color: #ffffff;
+}
